@@ -6,11 +6,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
   background-color: antiquewhite;
-}
-li {
-  float: left;
 }
 li {
   display: inline;
@@ -19,7 +17,7 @@ li a {
   display: block;
   color: rgb(55, 55, 55);
   text-align: center;
-  padding:  14px 16px;
+  padding:  40px 70px;
 }
 li a:hover:not(.active){ 
   background-color: lightsalmon;
