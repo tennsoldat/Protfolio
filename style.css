@@ -3,34 +3,39 @@
     max-width: 100%;
   }
 ul {
+  border-radius: 70px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: flex-end;
   background-color: rgb(237, 237, 237);
+ 
 
 }
 li {
   display: inline;
 }
 li a {
+  border-radius: 125px;
+  font-family: Arial, Helvetica, sans-serif; font-size: 23px;
   display: block;
-  color: rgb(55, 55, 55);
+  color: rgb(61, 61, 61);
   text-align: center;
-  padding:  40px 70px;
+  padding:  35px 65px;
   text-decoration: none;
+  scroll-snap-type: mandatory;
 }
 li a:hover:not(.active){ 
   background-color: lightsalmon;
 
 }
 .active {
-  background-color: indianred;
+  background-color: rgb(232, 94, 94);
 }
 body {background-color: rgb(251, 251, 251);}
 h1, h2   {color: rgb(55, 55, 55); font-size: 72px; font-family: Arial, Helvetica, sans-serif; text-align: center;}
 h1 {
   text-shadow: 2px 2px 2px rgba(21, 21, 21, 0.566);
 }
-p    {color: rgb(49, 61, 89);}
+p    {color: rgb(49, 61, 89);font-family: Arial, Helvetica, sans-serif;}
