@@ -4,26 +4,41 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
+  }
+  #self{
+    height: 30%;
+    max-width: 30%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:30%;
+    justify-content: flex-end;
+  }
+  #maps{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 ul {
   position: fixed;
   top: 0;
   width: 100%;
-  border-radius: 200px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: flex-end;
-  background-color: rgb(237, 237, 237);
+  background-color: lightslategray;
+
 
 }
 li {
   display: inline;
 }
 li a {
-  border-top-left-radius: 45px;
-  border-top-right-radius: 45px;
   font-family: Arial, Helvetica, sans-serif; font-size: 23px; font-weight: bold;
   display: block;
   color: rgb(241, 241, 241);
@@ -39,9 +54,56 @@ li a:hover:not(.active){
 .active {
   background-image: linear-gradient(to right, rgb(240, 108, 137) , rgb(81, 78, 243));
 }
-body {background-color: rgb(251, 251, 251);}
-h1, h2   {color: rgb(55, 55, 55); font-size: 72px; font-family: Arial, Helvetica, sans-serif; text-align: center;}
+html {
+
+  color-scheme: light dark;
+
+}
+body {
+
+  background-color: rgb(218, 215, 202);
+  margin: 0%;
+}
+h1, h2 {
+  color: rgb(55, 55, 55); 
+  font-size: 72px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: center;
+}
 h1 {
   text-shadow: 2px 2px 2px rgba(21, 21, 21, 0.566);
 }
-p    {color: rgb(49, 61, 89);font-family: Arial, Helvetica, sans-serif;}
+p {
+  color: rgb(49, 61, 89);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: lightslategray;
+  max-width: 100vw;
+  margin: 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-contact h6 {
+  color: rgb(55, 55, 55);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-contact p,
+.footer-contact a {
+  color: rgb(55, 55, 55);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.footer-links a {
+  color: rgb(55, 55, 55);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
